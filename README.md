@@ -1,6 +1,6 @@
 # ImageIO leak prevention for Tomcat based servlet containers
 
-To build it run mvn package
+Download [jar](https://github.com/litvinovg/imageio-leak-prevention/raw/refs/heads/main/ImageIO-leak-prevention.jar) or build it with mvn package
 
 To use it add produced jar file into tomcat/lib directory and specify class to initialize in conf/server.xml
 
