@@ -1,3 +1,11 @@
+# Configure JreMemoryLeakPreventionListener
+
+Use JreMemoryLeakPreventionListener configuration as suggested in [issue](https://github.com/litvinovg/imageio-leak-prevention/issues/1) instead.
+
+\<Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener" appContextProtection="true" />
+
+
+
 # ImageIO leak prevention for Tomcat based servlet containers
 
 Download [jar](https://github.com/litvinovg/imageio-leak-prevention/raw/refs/heads/main/ImageIO-leak-prevention.jar) or build it with mvn package
